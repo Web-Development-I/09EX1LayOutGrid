@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #411b00;
+  background-color: #969174;
+  padding: 5px;
+}
+
+p {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+body {
+  background-color: #fff4e4;
+  margin: 2.5rem;
+}
+
+/* Plaats je oplosing hieronder */
