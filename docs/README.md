@@ -81,11 +81,11 @@ Bekijk telkens onderstaande CodePens en voer de opdracht uit die eronder vermeld
 
 De bedoeling van deze oefening is een responsive webpagina te maken waarbij je de holly_grail layout implementeert met behulp van CSS Grid.
 
-Vooraleer je deze oefening maakt moet je eerst het volgende wikipedia artikel lezen: [https://en.wikipedia.org/wiki/Holy_grail_(web_design)](https://en.wikipedia.org/wiki/Holy_grail_(web_design)).
+Vooraleer je deze oefening maakt moet je eerst het volgende Wikipedia-artikel lezen: [https://en.wikipedia.org/wiki/Holy_grail_(web_design)](https://en.wikipedia.org/wiki/Holy_grail_(web_design)).
 
 Open nu de map **holly_grail** in Visual Studio Code.
 
-Deze bevat al de html en ook de CSS voor de weergave op de smartphone. Voeg nu nog zelf de CSS toe om de holy_grail layout te maken vanaf een viewport van 700 pixels. De eerste en de laatste kolom geef je vaste breedtes. De eerste kolom maak je ongeveer 20 karakters breed en de laatste kolom ongeveer 15 karakters. De middelste kolom krijg alle overige ruimte.
+Deze bevat al de html en ook de CSS voor de weergave op de smartphone. Voeg nu nog zelf de CSS toe om de holy_grail layout te maken vanaf een viewport van 700 pixels. De eerste en de laatste kolom geef je vaste breedtes. De eerste kolom maak je ongeveer 20 karakters breed en de laatste kolom ongeveer 15 karakters. De middelste kolom krijgt alle overige ruimte.
 
 Zorg er tevens voor dat de container niet breder wordt dan 960 pixels.
 
@@ -103,8 +103,7 @@ Zorg er tevens voor dat de container niet breder wordt dan 960 pixels.
   Stapsgewijze procedure:
   - Maak 'grid containers' van de elementen met `class="grid-container"`, zodat alle p-elementen grid items worden.
   
-    Merk op dat de marges van de p-elementen nu niet meer worden samengevoegd.<br>
-    *Technische uitleg: de grid items creëren een nieuwe Block Formatting Context (BFC) waardoor de marges volledig binnen het grid-item blijven en er geen marges meer worden samengevoegd (geen 'margin collapse').*
+    Merk op dat de marges van de p-elementen nu niet meer worden samengevoegd (geen 'margin collapse').*
 
   - Verwijder de marges van alle p-elementen.
   - Plaats in beide 'grid containers' de zes p-elementen in een raster van 2 rijen en 3 (gelijke) kolommen. 
