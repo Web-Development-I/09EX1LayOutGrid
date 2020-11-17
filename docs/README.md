@@ -172,7 +172,7 @@ Open de map **12-column-grid-system** met startbestanden in Visual Studio Code.
 
 In deze oefening moet je een 12-column-grid-system gebruiken om een responsive design te maken voor een reeks afbeeldingen. Op een smartphone moeten alle foto's onder elkaar getoond worden en hoe wijder de viewport wordt, hoe meer foto's er naast elkaar moeten getoond worden. Eerst twee foto's naast elkaar, dan drie en maximaal vier foto's naast elkaar.
 
-Graphic Designers werken dikwijls met een Grid System van 12 kolommen van gelijke breedte. Dit omdat 12 deelbaar is daar verschillende getallen. Ook sommige CSS frameworks, zoals bijv. bootstrap maken gebruik van een 12-column Grid System.
+Graphic Designers werken dikwijls met een Grid System van 12 kolommen van gelijke breedte. Dit omdat 12 deelbaar is door verschillende getallen. Ook sommige CSS frameworks, zoals bijv. bootstrap maken gebruik van een 12-column Grid System.
 
 Als we de foto's een minimale breedte van 200 pixels willen geven, dan kunnen we de volgende breakpoints gebruiken:
 - 416 pixels ( 2 * 200 pixels + 2 * 8 pixels body margin) voor twee kolommen met foto's
